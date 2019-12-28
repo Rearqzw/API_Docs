@@ -6,4 +6,4 @@
 
 ## [商户otc模块Api说明](https://github.com/coinWinApi/API_Docs/blob/master/OTCApi.md)
 
-## [支付渠道模块Api说明](https://github.com/coinWinApi/API_Docs/blob/master/OTCApi.md)
+## [支付渠道模块Api说明](https://github.com/Rearqzw/API_Docs/blob/master/PayChannelApi.md)
