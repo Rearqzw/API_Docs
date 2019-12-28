@@ -6,8 +6,9 @@
 # 接口说明
 - 签名说明：这里的签名采用sha256进行签名。对业务报文体的JSON对象的字符串签名。
 - 签名key：secretKey 【secretKey由接口方提供】
-- 签名对象：
-### 业务报文体的JSON对象的 字符串 
+- 签名对象：注有签名要求的键值对
+- 例如：请求 https://xxx.com:xxxx/MapSystem/paychannel/createtrade   参数有totalamount、paytype、outtradeno，则需要对 http://yysyservice:20002/api/Pay?accessKey=****&outtradeno=xxxxxxxxxx&paytype=1&timestamp=1567412503000&totalamount=100 进行sha256加密（注意参数的排序是按照键进行升序排序的,所有参与签名的参数,参数名一律为小写）然后在请求头里带上sign参数，值就是得到的密文
+
 
 
 #### 接口列表 (注：Data为业务报文体，json对象，该对象的key切记务必要小写，不然无法验签通过)
