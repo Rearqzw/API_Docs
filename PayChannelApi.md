@@ -27,7 +27,7 @@
 |Data|true|json|业务报文体|无|||
 | --------   | -----  | ----  | ----  | ----  | ----  | ----  |
 |Data业务报文体参数名称|是否必须|类型|描述|默认值|取值范围|
-|Data.totalamount|true|double|下单金额|无|暂时仅提供(100,200,299,499,999,1497,1998,2997,4995)|true|
+|Data.totalamount|true|int|下单金额|无|暂时仅提供(100,200,299,499,999,1497,1998,2997,4995)|true|
 |Data.paytype|true|int|支付方式|无|1-支付宝，2-微信|true|
 |Data.outtradeno|false|string|下游订单Id |无|无|true|
 
